@@ -1,0 +1,11 @@
+.selected {
+  padding: 7px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1160px) {
+  .InnerImageZoom {
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+}

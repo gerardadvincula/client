@@ -1,0 +1,141 @@
+.product-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 15px 0px;
+  max-width: 1024px;
+}
+
+.product-image {
+  flex: 1 1 30%;
+  max-width: 30%;
+  margin-right: 16px;
+  position: relative;
+}
+
+.best-seller-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #e60000;
+  border-radius: 5px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-info {
+  flex: 1 1 70%;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.product-rating {
+  font-size: 0.5rem;
+  color: #f90;
+  margin-bottom: 8px;
+}
+
+.product-rating i {
+  margin-left: 4px;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.price-label {
+  font-weight: bold;
+}
+
+.product-quantity {
+  margin-bottom: 8px;
+}
+
+.quantity-label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.product-buttons button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-right: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.product-buttons .btn-cart {
+  background-color: #f90;
+  color: #fff;
+}
+
+.product-buttons .btn-wishlist {
+  background-color: #fff;
+  color: #f90;
+  border: 1px solid #f90;
+}
+
+.product-buttons .btn-buy {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.product-quantity-btns {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.product-amount {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+
+  text-align: center;
+}
+
+.product-amount::-webkit-inner-spin-button,
+.product-amount::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+.btn.btn-cart:disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}

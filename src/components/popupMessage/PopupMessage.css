@@ -1,0 +1,40 @@
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.popup-body {
+  position: absolute;
+  width: 75%;
+  height: 12%;
+  left: 60px;
+  bottom: 30%;
+  top: 30%;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.popup-content {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popup-content button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  font-size: 14px;
+}
+
+.popup-content button:hover {
+  background-color: #555555;
+  color: white;
+}

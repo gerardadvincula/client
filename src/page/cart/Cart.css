@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px) {
+  .ReactModal__Content {
+    width: 250px !important;
+    height: 115px !important;
+  }
+}
+
+.cart-shippingaddress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0px;
+  gap: 15px;
+}
+
+.cart-shippingaddress-itemlist {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-shippingaddress-itemlist input {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.cart-shippingaddress-itemlist label {
+  font-size: 16px;
+}
+
+.cart-postalcode::-webkit-outer-spin-button,
+.cart-postalcode::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.cart-modeofpayment {
+  width: 325px;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.checkout-btn:disabled {
+  background-color: grey;
+  color: #ffff;
+  cursor: not-allowed;
+  width: 100%;
+  padding: 10px;
+
+  font-weight: 600;
+}

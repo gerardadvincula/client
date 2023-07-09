@@ -1,0 +1,38 @@
+.first-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.first-login-label {
+  font-size: 18px;
+}
+
+.first-login-title {
+  padding: 20px 0px;
+}
+
+.first-login-input-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.first-login-input-type {
+  width: 300px;
+  height: 35px;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.first-login-btn {
+  border: none;
+  width: 320px;
+  height: 35px;
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: #4b4b4b;
+  color: #ffff;
+  cursor: pointer;
+}
